@@ -1,0 +1,18 @@
+{
+  "id": "alt-drag",
+  "title": "Alt Drag",
+  "description": "When holding alt while dragging a token, teleport it automatically to the destination",
+  "authors": [
+    {
+      "name": "parasrah"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "./scripts/main.js"
+  ]
+}
