@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "禁用令牌動畫",
+        "hint": "當這個鍵被按下時，同時一個令牌正在被放下，它將會無動畫地移動到目標位置。"
+      }
+    }
+  }
+}

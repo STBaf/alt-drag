@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "Tokenanimation deaktivieren",
+        "hint": "Wenn diese Taste gedrückt wird, während ein Token fallen gelassen wird, bewegt es sich ohne Animation zum Zielort."
+      }
+    }
+  }
+}

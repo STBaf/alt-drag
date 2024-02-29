@@ -4,13 +4,14 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{json,js}]
+[*.{json,js,yml}]
 charset = utf-8
 
 [Makefile]
+charset = utf-8
 tab_width = 8
 indent_style = tab
 
-[*.{json,js}]
+[*.{json,js,yml}]
 indent_style = space
 indent_size = 2

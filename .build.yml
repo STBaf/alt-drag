@@ -1,0 +1,25 @@
+---
+triggers:
+  - action: email
+    condition: failure
+    to: parasrah <dev@parasrah.com>
+image: nixos/unstable
+packages:
+  - nixos.unzip
+  - nixos.hut
+sources:
+  - git@git.sr.ht:~parasrah/alt-drag
+secrets:
+  - 8a8497a8-d217-4d4e-892f-ff4499b0c4cf
+  - b6b2a2f5-81ec-41aa-9ec6-6e4704365fd2
+tasks:
+  - release: |
+      if [[ "$GIT_REF" != refs/tags/* ]]; then
+        exit 0
+      fi
+
+      cd alt-drag/
+
+      zip -r ~/alt-drag.zip .
+
+      hut git artifact upload --repo ~parasrah/alt-drag --rev $GIT_REF ~/alt-drag.zip

@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "禁用指示物动画",
+        "hint": "放置指示物时按住，则指示物将直接移动至目标地点。"
+      }
+    }
+  }
+}

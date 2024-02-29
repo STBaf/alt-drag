@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "Deshabilitar animación de icono",
+        "hint": "Si al soltar un icono se presiona esta tecla, se deshabilitará la animación del icono al moverse al destino."
+      }
+    }
+  }
+}

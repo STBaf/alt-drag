@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "Désactiver l'animation du jeton",
+        "hint": "Lorsqu'elle est maintenue lorsque vous déposer un jeton, le jeton se déplacera vers le lieu ciblé sans s'animer."
+      }
+    }
+  }
+}

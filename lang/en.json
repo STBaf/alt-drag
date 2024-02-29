@@ -1,0 +1,10 @@
+{
+  "alt-drag": {
+    "keybindings": {
+      "moveWithoutAnimation": {
+        "name": "Disable token animation",
+        "hint": "When being held while dropping a token, the token will move to the target location without animating."
+      }
+    }
+  }
+}

@@ -1,18 +1,59 @@
 {
   "id": "alt-drag",
   "title": "Alt Drag",
-  "description": "When holding alt while dragging a token, teleport it automatically to the destination",
+  "description": "When alt-dragging a token as a GM, teleport it automatically to the destination",
   "authors": [
     {
-      "name": "parasrah"
+      "name": "parasrah",
+      "email": "dev@parasrah.com",
+      "discord": "parasrah"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "manifest": "https://git.sr.ht/~parasrah/alt-drag/blob/0.2.0/module.json",
+  "download": "https://git.sr.ht/~parasrah/alt-drag/refs/download/0.2.0/alt-drag.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
   "esmodules": [
-    "./scripts/main.js"
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "zh-TW",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json"
+    },
+    {
+      "lang": "zh-Hant",
+      "name": "中文（简体）",
+      "path": "lang/zh_Hans.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt_BR.json"
+    }
   ]
 }
