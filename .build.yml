@@ -11,7 +11,7 @@ sources:
   - git@git.sr.ht:~parasrah/alt-drag
 secrets:
   - 8a8497a8-d217-4d4e-892f-ff4499b0c4cf
-  - b6b2a2f5-81ec-41aa-9ec6-6e4704365fd2
+  - ebca60d4-f9b8-49c2-9c36-458fe9a15ccf
 tasks:
   - release: |
       if [[ "$GIT_REF" != refs/tags/* ]]; then

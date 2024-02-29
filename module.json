@@ -9,9 +9,9 @@
       "discord": "parasrah"
     }
   ],
-  "version": "0.2.3",
+  "version": "0.2.4",
   "manifest": "https://git.sr.ht/~parasrah/alt-drag/tree/main/item/module.json",
-  "download": "https://git.sr.ht/~parasrah/alt-drag/refs/download/0.2.3/alt-drag.zip",
+  "download": "https://git.sr.ht/~parasrah/alt-drag/refs/download/0.2.4/alt-drag.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
