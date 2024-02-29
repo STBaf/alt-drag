@@ -1,6 +1,4 @@
 const MODULE_KEY = "alt-drag";
-const OPTION_KEY = "preventAnimation";
-
 const IS_KEY_HELD_OPT = "isKeyHeld";
 
 const active = () => game.settings.get(MODULE_KEY, IS_KEY_HELD_OPT);
@@ -33,15 +31,6 @@ function registerKeybindings() {
   });
 }
 
-function registerWrappers() {
-  libWrapper.register(
-    MODULE_KEY,
-    `Token.prototype._onDragLeftDrop`,
-    onDragLeftDrop,
-    "MIXED",
-  );
-}
-
 function handleMoveWithoutAnimation(event) {
   const isKeyPressed = !event.up;
   const isGM = game.user.isGM;
@@ -53,7 +42,7 @@ Hooks.once("init", function () {
   registerKeybindings();
 });
 
-Hooks.on("preUpdateToken", function (document, changes, options, _userId) {
+Hooks.on("preUpdateToken", function (_document, _changes, options, _userId) {
   if (active()) {
     options.animate = false;
   }
