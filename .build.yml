@@ -5,7 +5,7 @@ triggers:
     to: parasrah <dev@parasrah.com>
 image: nixos/unstable
 packages:
-  - nixos.unzip
+  - nixos.zip
   - nixos.hut
 sources:
   - git@git.sr.ht:~parasrah/alt-drag
