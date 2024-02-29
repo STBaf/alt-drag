@@ -18,8 +18,14 @@ tasks:
         exit 0
       fi
 
+      tag="$(basename "$GIT_REF")"
+      binary="$HOME/alt-drag_${tag}.zip"
+
       cd alt-drag/
 
-      zip -r ~/alt-drag.zip .
+      zip -r "$binary" .
 
-      hut git artifact upload --repo ~parasrah/alt-drag --rev $GIT_REF ~/alt-drag.zip
+      hut git artifact upload \
+          --repo ~parasrah/alt-drag \
+          --rev $GIT_REF \
+          "$binary"
