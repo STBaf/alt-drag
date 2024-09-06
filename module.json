@@ -1,22 +1,22 @@
 {
-  "id": "alt-drag",
-  "title": "Alt Drag",
+  "id": "alt-drag2",
+  "title": "Alt Drag 2",
   "description": "When alt-dragging a token as a GM, teleport it automatically to the destination",
   "authors": [
     {
-      "name": "parasrah",
-      "email": "dev@parasrah.com",
-      "discord": "parasrah",
-      "url": "https://parasrah.com"
+      "name": "STB",
+      "email": "andre@stbaf.de",
+      "discord": "STBaf",
+      "url": "https://stbaf.de"
     }
   ],
-  "version": "0.5.1",
-  "download": "https://git.sr.ht/~parasrah/alt-drag/refs/download/0.5.1/alt-drag_0.5.1.zip",
-  "manifest": "https://git.sr.ht/~parasrah/alt-drag/blob/main/module.json",
-  "url": "https://git.sr.ht/~parasrah/alt-drag",
+  "version": "0.6.0",
+  "download": "https://github.com/STBaf/alt-drag2/archive/master.zip",
+  "manifest": "https://raw.githubusercontent.com/STBaf/alt-drag2/master/module.json",
+  "url": "https://github.com/STBaf/alt-drag2",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "esmodules": [
     "scripts/main.js"
