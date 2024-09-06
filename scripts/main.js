@@ -1,4 +1,4 @@
-const MODULE_KEY = "alt-drag";
+const MODULE_KEY = "alt-drag2";
 const IS_KEY_HELD_OPT = "isKeyHeld";
 
 const active = () => game.settings.get(MODULE_KEY, IS_KEY_HELD_OPT);
@@ -18,8 +18,8 @@ function registerSettings() {
 
 function registerKeybindings() {
   game.keybindings.register(MODULE_KEY, "moveWithoutAnimation", {
-    name: game.i18n.localize("alt-drag.keybindings.moveWithoutAnimation.name"),
-    hint: game.i18n.localize("alt-drag.keybindings.moveWithoutAnimation.hint"),
+    name: game.i18n.localize("alt-drag2.keybindings.moveWithoutAnimation.name"),
+    hint: game.i18n.localize("alt-drag2.keybindings.moveWithoutAnimation.hint"),
     onDown: handleMoveWithoutAnimation,
     onUp: handleMoveWithoutAnimation,
     editable: [
